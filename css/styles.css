@@ -1,0 +1,99 @@
+/* Reset de CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 350%;
+}
+h1{
+    color: rgb(177, 33, 33);
+    text-align: center;
+}
+body header nav ul li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 155%;
+}
+body header nav ul li{
+    color: rgb(71, 6, 6);
+    text-align: center;
+}
+body p{
+    color: rgb(71, 6, 6);
+    text-align: center;
+}
+body{
+    background-color: rgb(248, 179, 179);
+}
+body header nav ul li{
+    list-style: none;
+    font-weight: bold;
+}
+
+h2{
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body main h2{
+    text-align: center;
+    text-decoration: solid; 
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130%;
+}
+body footer p{
+    text-align: center;
+    color:black;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+}
+a{
+    color:rgb(71, 6, 6);
+    font-weight: bold;
+    text-decoration: none;
+}
+a:visited{
+    color:rgb(71, 6, 6)
+}
+.flexbox{
+   display:flex
+}
+.flexbox{
+    justify-content:center;
+    justify-content: space-around;
+    background-color: brown;
+    border: solid black
+}
+.fleximg{
+    display:flex
+}
+.fleximg{
+    justify-content: center;
+    background-color: black;
+    margin:0.5%
+}
+.produgrid{
+    display: grid
+}
+.produgrid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: solid black;
+    background-color: brown;
+}
+.mq{
+    display:grid
+}
+.mq{
+    background-color: rgb(245, 168, 168);
+}
+@media (max-width: 600px) {
+   .mq{
+    background-color: antiquewhite;
+   }
+}
+
