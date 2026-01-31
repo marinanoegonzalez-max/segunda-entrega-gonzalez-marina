@@ -1,0 +1,33 @@
+/* Mobile */
+@media (max-width: 480px) {
+  .mq {
+    background-color: antiquewhite;
+  }
+
+  h1 { font-size: 180%; }
+  h2 { font-size: 130%; }
+  p  { font-size: 95%; }
+
+  body header nav ul li {
+    font-size: 110%;
+  }
+
+  .produgrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tablet */
+@media (min-width: 481px) and (max-width: 768px) {
+  h1 { font-size: 240%; }
+  h2 { font-size: 160%; }
+  p  { font-size: 110%; }
+
+  body header nav ul li {
+    font-size: 130%;
+  }
+
+  .produgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,52 @@
+@use "../variables/_variables.scss" as *;
+body {
+  header nav ul li {
+    font-family: $font-base;
+    font-size: 155%;
+    color: $rojo-oscuro;
+    text-align: center;
+    list-style: none;
+    font-weight: bold;
+  }
+
+  main h2 {
+    text-align: center;
+    text-decoration: solid;
+  }
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+
+  p {
+    text-align: center;
+    color: black;
+  }
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+  background-color: brown;
+  border: solid black;
+}
+
+.fleximg {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 0.5%;
+}
+
+.produgrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: solid black;
+  background-color: brown;
+}
+
+.mq {
+  display: grid;
+  background-color: $rosa-mq;
+}

@@ -1,0 +1,9 @@
+/*reset de css*/
+@use "variables/_variables.scss" as *;
+
+@use "reset/_reset.scss";
+@use "base/_base.scss";
+@use "carousel/_carousel.scss";
+@use "layout/_layout.scss";
+@use "mediaqueries/_mediaqueries.scss";
+

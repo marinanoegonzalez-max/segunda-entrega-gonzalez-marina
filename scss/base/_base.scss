@@ -1,0 +1,33 @@
+@use "../variables/_variables.scss" as *;
+body {
+  background-color:$rosa-fondo;
+
+  p {
+    color: $rojo-oscuro;
+    text-align: center;
+    font-family: $font-base;
+    font-size: 130%;
+  }
+}
+
+h1 {
+  font-family: $font-base;
+  font-size: 350%;
+  color: $rojo-principal;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-family: $font-base;
+}
+
+a {
+  color: $rojo-oscuro;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:visited {
+    color: $rojo-oscuro;
+  }
+}
